@@ -59,6 +59,7 @@ pytz==2022.6
 pytz-deprecation-shim==0.1.0.post0
 PyVirtualDisplay==0.2.4
 pywhatkit==5.3
+pyWebBrowser==3.0.5
 PyYAML==6.0
 requests==2.27.1
 rich==12.6.0
