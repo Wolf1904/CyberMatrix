@@ -19,8 +19,6 @@ st.write('---')
 
 st.subheader("eBooks:")
 
-st.subheader("eBooks:")
-
 with st.container():
     st.write("###")
     image_column, text_column = st.columns((1, 4))
