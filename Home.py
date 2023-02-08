@@ -93,7 +93,7 @@ with st.container():
         )
         link = st.button('*Click here...*', key = "1")
         if link:
-            webbrowser.open('https://www.youtube.com/watch?v=uTAaFExLgwQ', new=0, autoraise=False)
+            webbrowser.open('https://www.youtube.com/watch?v=uTAaFExLgwQ', new=2, autoraise=False)
 
 # ---FORM---
 with st.container():
