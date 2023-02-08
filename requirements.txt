@@ -92,6 +92,5 @@ watchdog==2.2.0
 Werkzeug==2.0.2
 wheel==0.37.1
 wikipedia==1.4.0
-webbrowser==3.10.0
 yarg==0.1.9
 zipp==3.11.0
