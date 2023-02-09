@@ -1,6 +1,5 @@
 import streamlit as st
 from PIL import Image
-import webbrowser
 
 
 st.set_page_config(page_title="Cybersecurity Courses", page_icon="🧑🏻‍💻", layout="wide")
@@ -26,14 +25,16 @@ with st.container():
         st.image("images/a+.jpg")
     with text_column:
         st.subheader("A+ (Plus) Certification - CompTIA")
+        st.text("Author: CompTIA")
         st.write(
             """
             CompTIA A+ is the only industry recognized credential with performance testing to prove pros can think on their feet to perform critical IT support tasks.
             """
             )
-        link = st.button('*Click here...*', key = "1")
-        if link:
-            webbrowser.open('https://alison.com/tag/comptia-a+?utm_source=google&utm_medium=cpc&utm_campaign=PPC_Tier-4_First-Click_Courses-_Broad_&utm_adgroup=Tag_Comptia-A+&gclid=CjwKCAiAh9qdBhAOEiwAvxIokyITkjo2gRXcMION5CPwjJtlRTZhuOg5ciVxfoTe0eeS3lBWY5wCXhoCNNoQAvD_BwE')
+        button = st.button('*Generate link*', key = "1")
+        link = 'https://alison.com/tag/comptia-a+?utm_source=google&utm_medium=cpc&utm_campaign=PPC_Tier-4_First-Click_Courses-_Broad_&utm_adgroup=Tag_Comptia-A+&gclid=CjwKCAiAh9qdBhAOEiwAvxIokyITkjo2gRXcMION5CPwjJtlRTZhuOg5ciVxfoTe0eeS3lBWY5wCXhoCNNoQAvD_BwE'
+        if button:
+            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
             
 with st.container():
     st.write("###")
@@ -42,14 +43,16 @@ with st.container():
         st.image("images/n+.jpg")
     with text_column:
         st.subheader("Security+ (Plus) Certification - CompTIA")
+        st.text("Author: CompTIA")
         st.write(
             """
             CompTIA Security+ is the first security certification a candidate should earn. It establishes the core knowledge required of any cybersecurity role and ...
             """
             )
-        link = st.button('*Click here...*', key = "2")
-        if link:
-            webbrowser.open('https://alison.com/course/comptia-security-exam-syo-501')
+        button = st.button('*Generate link*', key = "2")
+        link = 'https://alison.com/course/comptia-security-exam-syo-501'
+        if button:
+            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
 
 with st.container():
     st.write("###")
@@ -58,12 +61,14 @@ with st.container():
         st.image("images/s+.jpg")
     with text_column:
         st.subheader("CCNA - Training & Certifications - Cisco")
+        st.text("Author: Cisco")
         st.write(
             """
             CCNA exam covers networking fundamentals, IP services, security fundamentals, automation and programmability. Designed for agility and versatility, CCNA ...
             """
             )
-        link = st.button('*Click here...*', key = "3")
-        if link:
-            webbrowser.open('https://alison.com/courses?query=ccna')
+        button = st.button('*Generate link*', key = "3")
+        link = 'https://alison.com/courses?query=ccna'
+        if button:
+            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
 

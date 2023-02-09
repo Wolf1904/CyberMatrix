@@ -3,7 +3,6 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
 from PIL import Image
-import webbrowser
 
 
 st.set_page_config(page_title="Cyber Assist", page_icon="🖥️", layout="wide")
@@ -91,9 +90,10 @@ with st.container():
 
             """
         )
-        link = st.button('*Click here...*', key = "1")
+        button = st.button('*Generate link*', key = "1")
+        link = 'https://www.youtube.com/watch?v=uTAaFExLgwQ'
         if link:
-            webbrowser.open('https://www.youtube.com/watch?v=uTAaFExLgwQ', new=2, autoraise=False)
+            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
 
 # ---FORM---
 with st.container():
