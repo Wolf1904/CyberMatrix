@@ -1,32 +1,32 @@
 /* for Homepage */
 
 input[type=message], input[type=email], input[type=text], textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    background-color: #faf1dc;
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-    
-  }
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #2e4155; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  background-color: #041C32;
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   
+}
+
   /* Style the submit button with a specific background color etc */
   button[type=submit] {
-    background-color: #faf1dc;
-    color: #31333f;
+    background-color: #041C32;
+    color: #D9D9E2;
     padding: 4px 12px;
-    border-color: #ccc;
+    border-color: #2e4155;
     border-radius: 4px;
     cursor: pointer;
   }
-  
+
   /* When moving the mouse over the submit button, add a darker green color */
   button[type=submit]:hover {
-    border-color: #85586F;
-    color: #85586F
+    border-color: #ECB365;
+    color: #ECB365
   }
   
   
