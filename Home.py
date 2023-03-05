@@ -115,3 +115,8 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
+
+
+st.write("###")
+st.write("###")
+st.write("*Note:- The Study Material Provided Is Not Ours And Belongs To Respective Owners.*")
