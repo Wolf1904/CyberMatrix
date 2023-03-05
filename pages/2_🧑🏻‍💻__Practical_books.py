@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
-
+from streamlit.components.v1 import html
+import time
 
 st.set_page_config(page_title="Practical Books", page_icon="🧑🏻‍💻", layout="wide")
 
@@ -32,10 +33,12 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key="1")
-        link = 'https://drive.google.com/file/d/1TSEsVeUGG8g9j5j3zqTjd3A1HJ4Qa_at/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
-
+            link = 'https://drive.google.com/file/d/1TSEsVeUGG8g9j5j3zqTjd3A1HJ4Qa_at/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
         
 with st.container():
     st.write("###")
@@ -51,9 +54,12 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "2")
-        link = 'https://drive.google.com/file/d/1Xia2KtYrpyDqQ8jCJ73sW3pr9jYRoThS/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/1Xia2KtYrpyDqQ8jCJ73sW3pr9jYRoThS/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -69,9 +75,12 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "3")
-        link = 'https://drive.google.com/file/d/1hGn4IqbKOVrcQc0DZXmrIpyGroUESCq7/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/1hGn4IqbKOVrcQc0DZXmrIpyGroUESCq7/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -87,9 +96,12 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "4")
-        link = 'https://drive.google.com/file/d/1RZlrZCQkv3we7pREM7A0Yt1i2Gc06oPm/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/1RZlrZCQkv3we7pREM7A0Yt1i2Gc06oPm/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -105,9 +117,12 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "5")
-        link = 'https://drive.google.com/file/d/17OlxUApWDR06hfuYRQP1fLzkcLuWBXl9/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/17OlxUApWDR06hfuYRQP1fLzkcLuWBXl9/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -123,9 +138,12 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "6")
-        link = 'https://drive.google.com/file/d/195U-n0DJ_5FTUf8PhC2CDLoMWO-5kmXW/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/195U-n0DJ_5FTUf8PhC2CDLoMWO-5kmXW/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -141,9 +159,12 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "7")
-        link = 'https://drive.google.com/file/d/1J9xA_wSrlUKqpT-yrKSrL15TBodLxEGz/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/1J9xA_wSrlUKqpT-yrKSrL15TBodLxEGz/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -159,6 +180,9 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "8")
-        link = 'https://drive.google.com/file/d/1c3prEsOhwhT7N88Oz902-PvJbiqA0wpt/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/1c3prEsOhwhT7N88Oz902-PvJbiqA0wpt/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)

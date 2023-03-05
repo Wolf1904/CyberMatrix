@@ -3,6 +3,8 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
 from PIL import Image
+from streamlit.components.v1 import html
+import time
 
 
 st.set_page_config(page_title="Cyber Assist", page_icon="🖥️", layout="wide")
@@ -90,10 +92,13 @@ with st.container():
 
             """
         )
-        button = st.button('*Generate link*', key = "1")
-        link = 'https://www.youtube.com/watch?v=uTAaFExLgwQ'
-        if link:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+
+    if st.button('*Generate Link*'):
+        url = 'https://www.youtube.com/watch?v=uTAaFExLgwQ'
+        st.write('*Generating link...*')
+        time.sleep(2)  # Simulate some processing time
+        link = f'<a href="{url}" target="_blank">Click here to watch Video...</a>'
+        html(link, height=30)
 
 # ---FORM---
 with st.container():

@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
-
+from streamlit.components.v1 import html
+import time
 
 st.set_page_config(page_title="Theory Books", page_icon="🧑🏻‍💻", layout="wide")
 
@@ -32,9 +33,12 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "1")
-        link = 'https://drive.google.com/file/d/1u3Un6CSCHWIMxc3YeuwJS2AMP8RjK3ji/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/1u3Un6CSCHWIMxc3YeuwJS2AMP8RjK3ji/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
             
 with st.container():
     st.write("###")
@@ -50,9 +54,12 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "2")
-        link = 'https://drive.google.com/file/d/1HvM3BUBHfEOes10JIEPzdRBoffIkjaWI/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/1HvM3BUBHfEOes10JIEPzdRBoffIkjaWI/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -68,9 +75,12 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "3")
-        link = 'https://drive.google.com/file/d/11tqC4nT5N9mt0ZaKGNnrAF2Fl9bMnJqt/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/11tqC4nT5N9mt0ZaKGNnrAF2Fl9bMnJqt/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -86,9 +96,12 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "4")
-        link = 'https://drive.google.com/file/d/1ExTmqgkNQiSWpst2tUyvI0dE-17ymex3/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/1ExTmqgkNQiSWpst2tUyvI0dE-17ymex3/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -104,9 +117,12 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "5")
-        link = 'https://drive.google.com/file/d/1ZjLuWM32BRiWIie6LxD9ssBk8msgbJyP/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/1ZjLuWM32BRiWIie6LxD9ssBk8msgbJyP/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -122,9 +138,12 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "6")
-        link = 'https://drive.google.com/file/d/1dTEbQgmvOp2qyK1s3QokvIbSsUgbHPjG/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/1dTEbQgmvOp2qyK1s3QokvIbSsUgbHPjG/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
 
 st.write("---")
 st.write("###")
@@ -144,6 +163,9 @@ with st.container():
             """
             )
         button = st.button('*Generate link*', key = "9")
-        link = 'https://drive.google.com/file/d/1Evgfe9Os6F-ZHTzc_N8q8j3-qSWjBCTC/view?usp=share_link'
         if button:
-            st.write(f'<a href="{link}" target="_blank">Click here...</a>', unsafe_allow_html=True)
+            link = 'https://drive.google.com/file/d/1Evgfe9Os6F-ZHTzc_N8q8j3-qSWjBCTC/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
