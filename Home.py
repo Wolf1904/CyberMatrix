@@ -92,13 +92,12 @@ with st.container():
 
             """
         )
-
-    if st.button('*Generate Link*'):
-        url = 'https://www.youtube.com/watch?v=uTAaFExLgwQ'
-        st.write('*Generating link...*')
-        time.sleep(2)  # Simulate some processing time
-        link = f'<a href="{url}" target="_blank">Click here to watch Video...</a>'
-        html(link, height=30)
+        if st.button('*Generate Link*'):
+            url = 'https://www.youtube.com/watch?v=uTAaFExLgwQ'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            link = f'<a href="{url}" target="_blank">Click here to watch Video...</a>'
+            html(link, height=30)
 
 # ---FORM---
 with st.container():
