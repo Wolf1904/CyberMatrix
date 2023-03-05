@@ -34,7 +34,7 @@ with st.sidebar:
 
 # ---CONTENT---
 with st.container():
-    st.subheader("Hi, I am Wolf 🐺")
+    st.subheader("Hi, I am Wolf1904 🐺")
     st.title("A Student From India")
     st.write(
         "I am passionate about learning the ways to break and secure the Cyber Firewall."
