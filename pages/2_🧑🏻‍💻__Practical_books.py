@@ -186,3 +186,33 @@ with st.container():
             time.sleep(2)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
             html(hyperlink, height=30)
+
+
+st.write("---")
+st.write("###")
+st.subheader("Importance of DSA in Cyber Security")
+st.write(
+    """
+    Data structures are important in cyber security for storing and organizing data. They provide a way to organize and store data so that it can be accessed efficiently. Data structures can also be used to protect data from unauthorized access.
+    """)
+st.write("###")
+with st.container():
+    st.write("###")
+    image_column, text_column = st.columns((1, 4))
+    with image_column:
+        st.image("images/dsa.jpg")
+    with text_column:
+        st.subheader("Data Structures Using C")
+        st.text("Author: Reema Thareja")
+        st.write(
+            """
+            This second edition of Data Structures Using C has been developed to provide a comprehensive and consistent coverage of both the abstract concepts of data structures as well as the implementation of these concepts using C language. ...
+            """
+            )
+        button = st.button('*Generate link*', key = "9")
+        if button:
+            link = 'https://drive.google.com/file/d/1l-UWJgo8T11xU-Nl_EAOpRvIx3v-SBoT/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
