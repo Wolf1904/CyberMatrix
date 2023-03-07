@@ -6,5 +6,7 @@ secondaryBackgroundColor="#04293a"
 textColor="#d9d9e2"
 font="sans serif"
 
-[server]
-port = 80
+[browser]
+serverAddress = "localhost"
+gatherUsageStats = true
+serverPort = 8501
