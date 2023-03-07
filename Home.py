@@ -124,4 +124,4 @@ with st.container():
 st.write("###")
 st.write("###")
 st.write("###")
-st.write("*Note:- The Study Material Provided Is Not Ours And Belongs To Respective Owners.*")
+st.info("*Note:- The Study Material Provided Is Not Ours And Belongs To Respective Owners.*", icon="ℹ️")
