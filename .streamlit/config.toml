@@ -6,10 +6,5 @@ secondaryBackgroundColor="#04293a"
 textColor="#d9d9e2"
 font="sans serif"
 
-[browser]
-serverAddress = "localhost"
-gatherUsageStats = true
-serverPort = 8501
-
 [server]
 enableWebsocketCompression=false
