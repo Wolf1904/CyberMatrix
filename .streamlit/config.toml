@@ -10,3 +10,6 @@ font="sans serif"
 serverAddress = "localhost"
 gatherUsageStats = true
 serverPort = 8501
+
+[server]
+enableWebsocketCompression=false
