@@ -5,6 +5,3 @@ backgroundColor="#041c32"
 secondaryBackgroundColor="#04293a"
 textColor="#d9d9e2"
 font="sans serif"
-
-[server]
-enableWebsocketCompression=false
