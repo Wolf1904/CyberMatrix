@@ -7,4 +7,4 @@ textColor="#d9d9e2"
 font="sans serif"
 
 [server]
-port = 80
+enableCORS=false
