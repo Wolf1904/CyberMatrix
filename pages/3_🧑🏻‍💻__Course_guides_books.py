@@ -53,21 +53,21 @@ with st.container():
             These courses cover network fundamentals, network access, IP connectivity, IP services, network security fundamentals, and laying the foundation for network automation and programmability.
             """
             )
-        left_column, right_column = st.columns((2))
-        with left_column:
-            button = st.button('*Volume 1*', key = "2")
-            if button:
-                link = 'https://drive.google.com/file/d/1s2IlR0gVs4P4SRix0NUTbpJPGFTonQB2/view?usp=share_link'
-                st.write('*Generating link...*')
-                time.sleep(2)  # Simulate some processing time
-                hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
-                html(hyperlink, height=30)
-        with right_column:
-            button = st.button('*Volume 2*', key = "3")
-            if button:
-                link = 'https://drive.google.com/file/d/1NsXfc4xY0MgdIaUFY-2qraeCorUvgEZJ/view?usp=share_link'
-                st.write('*Generating link...*')
-                time.sleep(2)  # Simulate some processing time
-                hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
-                html(hyperlink, height=30)
-
+        
+    cloumn_1,column_2, column_3 = st.columns((1,2,2))
+    with column_2:
+        button = st.button('*Volume 1*', key = "2")
+        if button:
+            link = 'https://drive.google.com/file/d/1s2IlR0gVs4P4SRix0NUTbpJPGFTonQB2/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
+    with column_3:
+        button = st.button('*Volume 2*', key = "3")
+        if button:
+            link = 'https://drive.google.com/file/d/1NsXfc4xY0MgdIaUFY-2qraeCorUvgEZJ/view?usp=share_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
