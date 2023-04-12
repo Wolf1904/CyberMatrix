@@ -39,27 +39,6 @@ with st.container():
             time.sleep(2)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
             html(hyperlink, height=30)
-        
-with st.container():
-    st.write("###")
-    image_column, text_column = st.columns((1, 4))
-    with image_column:
-        st.image("images/pwk.jpg")
-    with text_column:
-        st.subheader("PWK (PEN-200) - Official OffSec Course")
-        st.text("Author: Offensive Security")
-        st.write(
-            """
-            PWK (PEN-200) ethical hacking course overhaul: 33% more lab machines, double the content. PWK is a penetration testing certification designed by the minds behind Kali Linux. Real-world Benefits. Interactive Exercises. Active Student Forums. Industry-leading Training.
-            """
-            )
-        button = st.button('*Generate link*', key = "2")
-        if button:
-            link = 'https://drive.google.com/file/d/1Xia2KtYrpyDqQ8jCJ73sW3pr9jYRoThS/view?usp=share_link'
-            st.write('*Generating link...*')
-            time.sleep(2)  # Simulate some processing time
-            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
-            html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
