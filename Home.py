@@ -7,7 +7,7 @@ from streamlit.components.v1 import html
 import time
 
 
-st.set_page_config(page_title="Cyber Assist", page_icon="🖥️", layout="wide")
+st.set_page_config(page_title="LibLupus", page_icon="🖥️", layout="wide")
 
 def load_lottieurl(url):
     r = requests.get(url)
