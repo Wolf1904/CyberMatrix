@@ -1,4 +1,4 @@
-# cyberProj is guide for those who want to pursue the field of Cybersecurity.
+# cyb-ment-proj is guide for those who want to pursue the field of Cybersecurity.
 This includes:
 - Some essential theory books.
 - Some essential practical books.
