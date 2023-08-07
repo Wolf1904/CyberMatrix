@@ -145,6 +145,27 @@ with st.container():
             hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
             html(hyperlink, height=30)
 
+with st.container():
+    st.write("###")
+    image_column, text_column = st.columns((1, 4))
+    with image_column:
+        st.image("images/nse.jpg")
+    with text_column:
+        st.subheader("Network Security Essentials")
+        st.text("Author: William Stallings")
+        st.write(
+            """
+            Network Securities Essentials: Applications and Standards introduces students to the critical importance of Internet security in our age of universal electronic connectivity. Amidst viruses, hackers and electronic fraud, organizations and individuals are constantly at risk of having their private information compromised...
+            """
+            )
+        button = st.button('*Generate link*', key = "6")
+        if button:
+            link = 'https://drive.google.com/file/d/1BqpJFS_L_ZAiX9GPR31cfmtSjNPlS2-2/view?usp=drive_link'
+            st.write('*Generating link...*')
+            time.sleep(2)  # Simulate some processing time
+            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+            html(hyperlink, height=30)
+
 st.write("---")
 st.write("###")
 st.subheader("Bonus Book")
