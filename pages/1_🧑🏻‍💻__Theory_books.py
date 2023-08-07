@@ -160,7 +160,7 @@ with st.container():
             )
         button = st.button('*Generate link*', key = "7")
         if button:
-            link = 'https://drive.google.com/file/d/1BqpJFS_L_ZAiX9GPR31cfmtSjNPlS2-2/view?usp=drive_link'
+            link = 'https://drive.google.com/file/d/1BqpJFS_L_ZAiX9GPR31cfmtSjNPlS2-2/view?usp=sharing'
             st.write('*Generating link...*')
             time.sleep(2)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
