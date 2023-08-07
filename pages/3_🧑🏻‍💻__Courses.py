@@ -37,7 +37,7 @@ with st.container():
         if button:
             link = 'https://alison.com/tag/comptia-a+?utm_source=google&utm_medium=cpc&utm_campaign=PPC_Tier-4_First-Click_Courses-_Broad_&utm_adgroup=Tag_Comptia-A+&gclid=CjwKCAiAh9qdBhAOEiwAvxIokyITkjo2gRXcMION5CPwjJtlRTZhuOg5ciVxfoTe0eeS3lBWY5wCXhoCNNoQAvD_BwE'
             st.write('*Generating link...*')
-            time.sleep(2)  # Simulate some processing time
+            time.sleep(1)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to open Course...</a>'
             html(hyperlink, height=30)
             
@@ -59,7 +59,7 @@ with st.container():
         if button:
             link = 'https://alison.com/course/comptia-security-exam-syo-501'
             st.write('*Generating link...*')
-            time.sleep(2)  # Simulate some processing time
+            time.sleep(1)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to open Course...</a>'
             html(hyperlink, height=30)
 
@@ -81,7 +81,7 @@ with st.container():
         if button:
             link = 'https://alison.com/courses?query=ccna'
             st.write('*Generating link...*')
-            time.sleep(2)  # Simulate some processing time
+            time.sleep(1)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to open Course...</a>'
             html(hyperlink, height=30)
 

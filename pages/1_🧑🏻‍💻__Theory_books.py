@@ -36,7 +36,7 @@ with st.container():
         if button:
             link = 'https://drive.google.com/file/d/1u3Un6CSCHWIMxc3YeuwJS2AMP8RjK3ji/view?usp=share_link'
             st.write('*Generating link...*')
-            time.sleep(2)  # Simulate some processing time
+            time.sleep(1)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
             html(hyperlink, height=30)
             
@@ -57,7 +57,7 @@ with st.container():
         if button:
             link = 'https://drive.google.com/file/d/1HvM3BUBHfEOes10JIEPzdRBoffIkjaWI/view?usp=share_link'
             st.write('*Generating link...*')
-            time.sleep(2)  # Simulate some processing time
+            time.sleep(1)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
             html(hyperlink, height=30)
 
@@ -78,7 +78,7 @@ with st.container():
         if button:
             link = 'https://drive.google.com/file/d/11tqC4nT5N9mt0ZaKGNnrAF2Fl9bMnJqt/view?usp=share_link'
             st.write('*Generating link...*')
-            time.sleep(2)  # Simulate some processing time
+            time.sleep(1)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
             html(hyperlink, height=30)
 
@@ -99,7 +99,7 @@ with st.container():
         if button:
             link = 'https://drive.google.com/file/d/1ExTmqgkNQiSWpst2tUyvI0dE-17ymex3/view?usp=share_link'
             st.write('*Generating link...*')
-            time.sleep(2)  # Simulate some processing time
+            time.sleep(1)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
             html(hyperlink, height=30)
 
@@ -120,7 +120,7 @@ with st.container():
         if button:
             link = 'https://drive.google.com/file/d/1ZjLuWM32BRiWIie6LxD9ssBk8msgbJyP/view?usp=share_link'
             st.write('*Generating link...*')
-            time.sleep(2)  # Simulate some processing time
+            time.sleep(1)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
             html(hyperlink, height=30)
 
@@ -141,7 +141,7 @@ with st.container():
         if button:
             link = 'https://drive.google.com/file/d/1dTEbQgmvOp2qyK1s3QokvIbSsUgbHPjG/view?usp=share_link'
             st.write('*Generating link...*')
-            time.sleep(2)  # Simulate some processing time
+            time.sleep(1)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
             html(hyperlink, height=30)
 
@@ -162,7 +162,7 @@ with st.container():
         if button:
             link = 'https://drive.google.com/file/d/1BqpJFS_L_ZAiX9GPR31cfmtSjNPlS2-2/view?usp=sharing'
             st.write('*Generating link...*')
-            time.sleep(2)  # Simulate some processing time
+            time.sleep(1)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
             html(hyperlink, height=30)
 
@@ -187,6 +187,6 @@ with st.container():
         if button:
             link = 'https://drive.google.com/file/d/1Evgfe9Os6F-ZHTzc_N8q8j3-qSWjBCTC/view?usp=share_link'
             st.write('*Generating link...*')
-            time.sleep(2)  # Simulate some processing time
+            time.sleep(1)  # Simulate some processing time
             hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
             html(hyperlink, height=30)
