@@ -158,7 +158,7 @@ with st.container():
             Network Securities Essentials: Applications and Standards introduces students to the critical importance of Internet security in our age of universal electronic connectivity. Amidst viruses, hackers and electronic fraud, organizations and individuals are constantly at risk of having their private information compromised...
             """
             )
-        button = st.button('*Generate link*', key = "7")
+        button = st.button('*Generate link*', key = "12")
         if button:
             link = 'https://drive.google.com/file/d/1BqpJFS_L_ZAiX9GPR31cfmtSjNPlS2-2/view?usp=drive_link'
             st.write('*Generating link...*')
