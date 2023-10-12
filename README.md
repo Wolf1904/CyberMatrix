@@ -1,9 +1,5 @@
-# cyb-ment-proj is guide for those who want to pursue the field of Cybersecurity.
-This includes:
-- Some essential theory books.
-- Some essential practical books.
-- Related courses
-- And a roadmap video.
+# cyb-ment-proj (LibLupusArctos)
+##Introduction
+Welcome to the documentation for the "LibLupusArctos" Streamlit web app. This web app is designed to guide individuals interested in pursuing a career in Cybersecurity. It provides resources including essential theory books, practical books, related courses, and a roadmap video to help you get started in this field.
 
-To view the app:
-- [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://liblupusarctos.streamlit.app/)
+You can access the "LibLupusArctos" web app at [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://liblupusarctos.streamlit.app/)
