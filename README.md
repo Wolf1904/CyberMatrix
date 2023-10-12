@@ -28,6 +28,7 @@ Here are some essential theory books to help you build a strong foundation in cy
 - Metasploit Penetration Testing Cookbook
 - The Hacker Playbook 3
 - Network Security Essentials
+### Bonus Book
 - The Code Book
 
 
