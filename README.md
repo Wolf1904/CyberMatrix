@@ -5,8 +5,6 @@ Welcome to the documentation for the "LibLupusArctos" Streamlit web app. This we
 
 You can access the "LibLupusArctos" web app at [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://liblupusarctos.streamlit.app/)
 
----
-
 ## Table of Contents
 - Getting Started
 - Theory Books
