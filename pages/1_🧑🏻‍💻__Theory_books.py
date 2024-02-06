@@ -32,13 +32,14 @@ with st.container():
             Do you feel that informatics is indispensable in today's increasingly digital world? Do you want to introduce yourself to the world of programming or cyber security but don't know where to get started? ...
             """
             )
-        button = st.button('*Generate link*', key = "1")
-        if button:
-            link = 'https://drive.google.com/file/d/1u3Un6CSCHWIMxc3YeuwJS2AMP8RjK3ji/view?usp=share_link'
-            st.write('*Generating link...*')
-            time.sleep(1)  # Simulate some processing time
-            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
-            html(hyperlink, height=30)
+        st.link_button("*Read Ebook...*", "https://drive.google.com/file/d/1u3Un6CSCHWIMxc3YeuwJS2AMP8RjK3ji/view?usp=share_link")
+        # button = st.button('*Generate link*', key = "1")
+        # if button:
+        #     link = 'https://drive.google.com/file/d/1u3Un6CSCHWIMxc3YeuwJS2AMP8RjK3ji/view?usp=share_link'
+        #     st.write('*Generating link...*')
+        #     time.sleep(1)  # Simulate some processing time
+        #     hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+        #     html(hyperlink, height=30)
             
 with st.container():
     st.write("###")
@@ -53,13 +54,14 @@ with st.container():
             JUMPSTART YOUR NEW AND EXCITING CAREER AS A PENETRATION TESTER The Pentester BluePrint: Your Guide to Being a Pentester offers readers a chance to delve deeply into the world of the ethical, or "white-hat" hacker. ...
             """
             )
-        button = st.button('*Generate link*', key = "2")
-        if button:
-            link = 'https://drive.google.com/file/d/1HvM3BUBHfEOes10JIEPzdRBoffIkjaWI/view?usp=share_link'
-            st.write('*Generating link...*')
-            time.sleep(1)  # Simulate some processing time
-            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
-            html(hyperlink, height=30)
+        st.link_button("*Read Ebook...*", "https://drive.google.com/file/d/1HvM3BUBHfEOes10JIEPzdRBoffIkjaWI/view?usp=share_link")
+        # button = st.button('*Generate link*', key = "2")
+        # if button:
+        #     link = 'https://drive.google.com/file/d/1HvM3BUBHfEOes10JIEPzdRBoffIkjaWI/view?usp=share_link'
+        #     st.write('*Generating link...*')
+        #     time.sleep(1)  # Simulate some processing time
+        #     hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+        #     html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -74,13 +76,14 @@ with st.container():
             The first book to reveal and dissect the technical aspect of many social engineering maneuvers From elicitation, pretexting, influence and manipulation all aspects of social engineering are picked apart, ...
             """
             )
-        button = st.button('*Generate link*', key = "3")
-        if button:
-            link = 'https://drive.google.com/file/d/11tqC4nT5N9mt0ZaKGNnrAF2Fl9bMnJqt/view?usp=share_link'
-            st.write('*Generating link...*')
-            time.sleep(1)  # Simulate some processing time
-            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
-            html(hyperlink, height=30)
+        st.link_button("*Read Ebook...*", "https://drive.google.com/file/d/11tqC4nT5N9mt0ZaKGNnrAF2Fl9bMnJqt/view?usp=share_link")
+        # button = st.button('*Generate link*', key = "3")
+        # if button:
+        #     link = 'https://drive.google.com/file/d/11tqC4nT5N9mt0ZaKGNnrAF2Fl9bMnJqt/view?usp=share_link'
+        #     st.write('*Generating link...*')
+        #     time.sleep(1)  # Simulate some processing time
+        #     hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+        #     html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -95,13 +98,14 @@ with st.container():
             Basic Security Testing with Kali Linux 2 Kali Linux 2 (2016) is an Ethical Hacking platform that allows good guys to use the same tools and techniques that a hacker would use, so they can find security issues before the bad guys do. ...
             """
             )
-        button = st.button('*Generate link*', key = "4")
-        if button:
-            link = 'https://drive.google.com/file/d/1ExTmqgkNQiSWpst2tUyvI0dE-17ymex3/view?usp=share_link'
-            st.write('*Generating link...*')
-            time.sleep(1)  # Simulate some processing time
-            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
-            html(hyperlink, height=30)
+        st.link_button("*Read Ebook...*", "https://drive.google.com/file/d/1ExTmqgkNQiSWpst2tUyvI0dE-17ymex3/view?usp=share_link")
+        # button = st.button('*Generate link*', key = "4")
+        # if button:
+        #     link = 'https://drive.google.com/file/d/1ExTmqgkNQiSWpst2tUyvI0dE-17ymex3/view?usp=share_link'
+        #     st.write('*Generating link...*')
+        #     time.sleep(1)  # Simulate some processing time
+        #     hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+        #     html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -116,13 +120,14 @@ with st.container():
             This is a Cookbook which follows a practical task-based style. There are plenty of code and commands used for illustration which make your learning curve easy and quick.This book targets both professional penetration testers as well as new users of Metasploit who wish to gain expertise over the framework. ...
             """
             )
-        button = st.button('*Generate link*', key = "5")
-        if button:
-            link = 'https://drive.google.com/file/d/1ZjLuWM32BRiWIie6LxD9ssBk8msgbJyP/view?usp=share_link'
-            st.write('*Generating link...*')
-            time.sleep(1)  # Simulate some processing time
-            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
-            html(hyperlink, height=30)
+        st.link_button("*Read Ebook...*", "https://drive.google.com/file/d/1ZjLuWM32BRiWIie6LxD9ssBk8msgbJyP/view?usp=share_link")
+        # button = st.button('*Generate link*', key = "5")
+        # if button:
+        #     link = 'https://drive.google.com/file/d/1ZjLuWM32BRiWIie6LxD9ssBk8msgbJyP/view?usp=share_link'
+        #     st.write('*Generating link...*')
+        #     time.sleep(1)  # Simulate some processing time
+        #     hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+        #     html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -137,13 +142,14 @@ with st.container():
             Back for the third season, The Hacker Playbook 3 (THP3) takes your offensive game to the pro tier. With a combination of new strategies, attacks, exploits, tips and tricks, you will be able to put yourself in the center of the action toward victory. ...
             """
             )
-        button = st.button('*Generate link*', key = "6")
-        if button:
-            link = 'https://drive.google.com/file/d/1dTEbQgmvOp2qyK1s3QokvIbSsUgbHPjG/view?usp=share_link'
-            st.write('*Generating link...*')
-            time.sleep(1)  # Simulate some processing time
-            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
-            html(hyperlink, height=30)
+        st.link_button("*Read Ebook...*", "https://drive.google.com/file/d/1dTEbQgmvOp2qyK1s3QokvIbSsUgbHPjG/view?usp=share_link")
+        # button = st.button('*Generate link*', key = "6")
+        # if button:
+        #     link = 'https://drive.google.com/file/d/1dTEbQgmvOp2qyK1s3QokvIbSsUgbHPjG/view?usp=share_link'
+        #     st.write('*Generating link...*')
+        #     time.sleep(1)  # Simulate some processing time
+        #     hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+        #     html(hyperlink, height=30)
 
 with st.container():
     st.write("###")
@@ -158,13 +164,14 @@ with st.container():
             Network Securities Essentials: Applications and Standards introduces students to the critical importance of Internet security in our age of universal electronic connectivity. Amidst viruses, hackers and electronic fraud, organizations and individuals are constantly at risk of having their private information compromised...
             """
             )
-        button = st.button('*Generate link*', key = "7")
-        if button:
-            link = 'https://drive.google.com/file/d/1BqpJFS_L_ZAiX9GPR31cfmtSjNPlS2-2/view?usp=sharing'
-            st.write('*Generating link...*')
-            time.sleep(1)  # Simulate some processing time
-            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
-            html(hyperlink, height=30)
+        st.link_button("*Read Ebook...*", "https://drive.google.com/file/d/1BqpJFS_L_ZAiX9GPR31cfmtSjNPlS2-2/view?usp=sharing")
+        # button = st.button('*Generate link*', key = "7")
+        # if button:
+        #     link = 'https://drive.google.com/file/d/1BqpJFS_L_ZAiX9GPR31cfmtSjNPlS2-2/view?usp=sharing'
+        #     st.write('*Generating link...*')
+        #     time.sleep(1)  # Simulate some processing time
+        #     hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+        #     html(hyperlink, height=30)
 
 st.write("---")
 st.write("###")
@@ -183,10 +190,11 @@ with st.container():
             The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography is a book by Simon Singh, published in 1999 by Fourth Estate and Doubleday. The Code Book describes some illustrative highlights in the history of cryptography, drawn from both of its principal branches, codes and ciphers.
             """
             )
-        button = st.button('*Generate link*', key = "9")
-        if button:
-            link = 'https://drive.google.com/file/d/1Evgfe9Os6F-ZHTzc_N8q8j3-qSWjBCTC/view?usp=share_link'
-            st.write('*Generating link...*')
-            time.sleep(1)  # Simulate some processing time
-            hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
-            html(hyperlink, height=30)
+        st.link_button("*Read Ebook...*", "https://drive.google.com/file/d/1Evgfe9Os6F-ZHTzc_N8q8j3-qSWjBCTC/view?usp=share_link")
+        # button = st.button('*Generate link*', key = "9")
+        # if button:
+        #     link = 'https://drive.google.com/file/d/1Evgfe9Os6F-ZHTzc_N8q8j3-qSWjBCTC/view?usp=share_link'
+        #     st.write('*Generating link...*')
+        #     time.sleep(1)  # Simulate some processing time
+        #     hyperlink = f'<a href="{link}" target="_blank">Click here to read eBook...</a>'
+        #     html(hyperlink, height=30)
