@@ -10,7 +10,9 @@ You can access the "LibLupusArctos" web app at [![Streamlit App](https://static.
 - Theory Books
 - Practical Books
 - Related Courses
+- Related Course Guides
 - Roadmap Video
+- News Page
 - Contributing
 
 
@@ -67,6 +69,10 @@ Watch this roadmap video for guidance on building a successful career in cyberse
 
 [The Hacker’s Roadmap (by networkchuck)](https://www.youtube.com/watch?v=uTAaFExLgwQ)
 
+
+## News Page
+Stay updated with the latest news related to :
+[Link to News Page](https://liblupusarctos.streamlit.app/News)
 
 ## Contributing
 Contributions to "cyb-ment-proj" are welcome. If you have additional resources or suggestions to improve the app, please follow these guidelines:
