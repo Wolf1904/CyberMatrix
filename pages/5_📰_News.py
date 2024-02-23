@@ -6,8 +6,8 @@ api_key = st.secrets["newsapi_key"]
 
 newsapi = NewsApiClient(api_key=api_key)
 
-st.title("Latest News")
-st.subheader("News related to Business, Science and Technology.")
+st.title("News")
+st.subheader("Latest News related to Business, Science and Technology.")
 st.write("---")
 st.markdown("<style> body { background-color: #f5f5f5; } </style>", unsafe_allow_html=True)
 
