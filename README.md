@@ -1,4 +1,4 @@
-# cyb-ment-proj (LibLupusArctos)
+# LibLupusArctos
 
 ## Introduction
 Welcome to the documentation for the "LibLupusArctos" Streamlit web app. This web app is designed to guide individuals interested in pursuing a career in Cybersecurity. It provides resources including essential theory books, practical books, related courses, and a roadmap video to help you get started in this field.
