@@ -62,7 +62,6 @@ pyWebBrowser==3.0.5
 PyYAML==6.0
 requests==2.27.1
 rich==12.6.0
-scipy==1.8.0
 selenium==3.141.0
 semver==2.13.0
 setuptools==58.1.0
