@@ -1,9 +1,8 @@
-# LibLupusArctos
-
+# CyberMatrix
 ## Introduction
-Welcome to the documentation for the "LibLupusArctos" Streamlit web app. This web app is designed to guide individuals interested in pursuing a career in Cybersecurity. It provides resources including essential theory books, practical books, related courses, and a roadmap video to help you get started in this field.
+Welcome to the documentation for the "CyberMatrix" Streamlit web app. This web app is designed to guide individuals interested in pursuing a career in Cybersecurity. It provides resources including essential theory books, practical books, related courses, and a roadmap video to help you get started in this field.
 
-You can access the "LibLupusArctos" web app at [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://liblupusarctos.streamlit.app/)
+You can access the "LibLupusArctos" web app at [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cybermatrix.streamlit.app/)
 
 ## Table of Contents
 - Getting Started
@@ -12,12 +11,11 @@ You can access the "LibLupusArctos" web app at [![Streamlit App](https://static.
 - Related Courses
 - Related Course Guides
 - Roadmap Video
-- News Page
 - Contributing
 
 
 ## Getting Started
-To get started with "LibLupusArctos" simply visit the web app at https://liblupusarctos.streamlit.app/. You'll find resources and guidance on how to begin your journey into the field of cybersecurity.
+To get started with "LibLupusArctos" simply visit the web app at https://cybermatrix.streamlit.app/. You'll find resources and guidance on how to begin your journey into the field of cybersecurity.
 
 
 ## Theory Books
@@ -68,11 +66,6 @@ Explore these courses guides to deepen your cybersecurity knowledge:
 Watch this roadmap video for guidance on building a successful career in cybersecurity:
 
 [The Hacker’s Roadmap (by networkchuck)](https://www.youtube.com/watch?v=uTAaFExLgwQ)
-
-
-## News Page
-Stay updated with the latest news related to :
-[Link to News Page](https://liblupusarctos.streamlit.app/News)
 
 ## Contributing
 Contributions to "cyb-ment-proj" are welcome. If you have additional resources or suggestions to improve the app, please follow these guidelines:
