@@ -2,7 +2,7 @@
 ## Introduction
 Welcome to the documentation for the "CyberMatrix" Streamlit web app. This web app is designed to guide individuals interested in pursuing a career in Cybersecurity. It provides resources including essential theory books, practical books, related courses, and a roadmap video to help you get started in this field.
 
-You can access the "CyberMatrix" web app at [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cybermatrix.onrender.com)
+You can access the "CyberMatrix" web app at [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cybermatrix.streamlit.app)
 
 ## Table of Contents
 - Getting Started
