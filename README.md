@@ -15,7 +15,7 @@ You can access the "CyberMatrix" web app at [![Streamlit App](https://static.str
 
 
 ## Getting Started
-To get started with "CyberMatrix" simply visit the web app at https://cybermatrix.onrender.com. You'll find resources and guidance on how to begin your journey into the field of cybersecurity.
+To get started with "CyberMatrix" simply visit the web app at [cybermatrix.streamlit.app](https://cybermatrix.streamlit.app/). You'll find resources and guidance on how to begin your journey into the field of cybersecurity.
 
 
 ## Theory Books
